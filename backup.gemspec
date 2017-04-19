@@ -38,12 +38,12 @@ Gem::Specification.new do |gem|
   gem.add_dependency "net-sftp", "2.1.2"
   gem.add_dependency "mail", "2.6.3" # patched
   gem.add_dependency "pagerduty", "2.0.0"
-  gem.add_dependency "twitter", "~> 5.5"
+  gem.add_dependency "twitter", "~> 6.1.0"
   gem.add_dependency "hipchat", "1.0.1"
   gem.add_dependency "flowdock", "0.4.0"
   gem.add_dependency "dogapi", "1.11.0"
   gem.add_dependency "aws-ses", "0.5.0"
-  gem.add_dependency "qiniu", "~> 6.5"
+  gem.add_dependency "qiniu", "~> 6.8.1"
   gem.add_dependency "nokogiri", "~> 1.7", ">= 1.7.1"
 
   gem.add_development_dependency "rubocop", "0.48.1"
